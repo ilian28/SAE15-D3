@@ -4,12 +4,12 @@ Analyse des installations radioélectriques en France
 HOW TO USE
 
 - GENERETATE_MAP.IPYNB (SAE15) -
-Ce module permet de charger les données de supports d'antennes (`sup_support.txt`), de convertir les coordonnées DMS en degrés décimaux, de classer les antennes par opérateur (`TPO_ID`) et de générer une carte interactive exploitable dans **Jupyter Notebook** et dans un **navigateur web**, accompagnée d'une archive `.zip` compressée.
-Pensez à indiquer le bon chemin, où se trouve votre carte html, ainsi que le chemin de votre fichier source.
+This module allows you to load antenna support data (`sup_support.txt`), convert DMS coordinates into decimal degrees, classify antennas by operator (`TPO_ID`), and generate an interactive map usable in **Jupyter Notebook** and in a **web browser**, accompanied by a compressed `.zip` archive.
+Remember to specify the right path, where your html map is located, as well as the path to your source file.
 
 Installation :
 pandas
 folium
 
 - CARTE_ANTENNES_FRANCE.ZIP -
-une carte au format html compressée pour faciliter la réception des données, fonctionne avec le fichier 'generate_map.ipynb'
+a map in HTML format, compressed to facilitate data reception; works with the 'generate_map.ipynb' file.
